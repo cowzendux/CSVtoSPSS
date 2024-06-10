@@ -31,7 +31,7 @@ converts them to SPSS data sets.
 * 2017-09-27 Added example
 
 set printback = off.
-begin program python.
+BEGIN PROGRAM PYTHON3.
 import spss, os, time
 
 def CSVtoSPSS(indir, outdir = "NONE", readnames = True, qualifier = '"'):
