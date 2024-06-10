@@ -11,8 +11,8 @@ This and other SPSS Python Extension functions can be found at http://www.stat-h
 * "qualifier" is a string variable that indicates the qualifier used to surround strings that are supposed to be in the same column. This defaults to a double quote.
 
 ## Example
-**CSVtoSPSS(indir = "C:/School discipline/Data",
-outdir = "C:/School discipline/Data/SPSS",
+**CSVtoSPSS(indir = "C:/School discipline/Data",   
+outdir = "C:/School discipline/Data/SPSS",  
 readnames = True)**
 * This command would find all of the .csv files in the C:/School discipline/Data directory, convert them to SPSS format, and save the resulting files to the C:/School discipline/Data/SPSS directory. 
 * The program will assume that the names of the variables are included in the first row of each of the files.
